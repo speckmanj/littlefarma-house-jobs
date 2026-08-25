@@ -1,10 +1,8 @@
-version: '3.8'
-
 services:
   house-jobs:
     build:
       context: /mnt/apps/websites/house-jobs
-      dockerfile: docker/Dockerfile
+      dockerfile: Dockerfile
     container_name: house-jobs-tracker
     restart: unless-stopped
     ports:
