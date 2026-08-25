@@ -10,6 +10,6 @@ services:
     ports:
       - "26001:26001"
     volumes:
-      - ./data:/app
+      - ./data:/mnt/apps/websites/data
     environment:
       - TZ=America/Chicago
